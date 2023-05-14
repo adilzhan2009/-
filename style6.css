@@ -1,0 +1,178 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    margin-top: 96px;
+    margin-left: 218px;
+    display: flex;
+}
+nav{
+    background-color: #D9D9D9;
+    height: auto; width: auto;
+    padding: 10px;
+margin-right: 5px;
+}
+.menu{
+    display: flex;
+    width: 1159px;
+    margin-left: 116px;
+}
+nav:hover{
+    background-color: #FD5353;
+    color: white;
+}
+.guitar{
+   display: none;
+   background-color: #FD5353;
+   color: white;
+   position: absolute;
+   top: 119px;
+   right: 778px;
+}
+ul{
+    list-style: none;
+    margin: 0; padding-left: 0;
+    margin-top: 16px;
+    height: auto;
+    
+}
+nav:hover>.guitar{
+    display: block;
+    }
+li{
+    padding: 10px;
+}
+li:hover{
+    background-color:#da4747;
+}
+.a2{
+    text-decoration: none;
+    color: white;
+
+}
+.Rectangle{
+    
+    width: 1050px; height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #D9D9D9;
+    width: 212px; height: 371px;
+    padding-top: 25px;
+    margin-top: 73px;
+    margin-left: 218px;
+}
+.a3{
+    margin-top: 20px;
+}
+.a3:hover{
+    color: #FD5353;
+}
+main{
+    display: flex;
+}
+.piano{
+    display: flex;
+    margin-top: 73px;
+    margin-left: 20px;
+}
+.s{
+    margin: 20px;
+    height: 250px; width: 250px;
+    overflow: hidden;
+}
+.a1{
+    background-color: #FD5353;
+    padding: 7px;
+    margin-left: auto; margin-right: auto;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+}
+.ds{
+    font-weight: bold;
+}
+.name{
+    font-size: 90%;
+}
+.a2{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.img1{
+    height: 40px; width: auto;
+    margin: 5px;
+}
+footer{
+    background: #D9D9D9;
+    margin: 0;
+    margin-top: 100px;
+    padding: 10px;
+    
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.links1{
+    display: flex;
+    flex-direction: column;
+}
+.c1{
+    color:rgb(137, 137, 137);
+}
+.c1:hover{
+    color: #FD5353;
+}
+h3{
+    color: #515151;
+}
+.foot{
+    display: flex ;
+    justify-content: space-around;
+}
+.F1{
+    padding-left: 70px;
+}
+@media all and (max-width: 540px)
+{
+.menu{
+    margin-left: 0;
+    width: 390px;
+    margin-top: 20px;
+    height: 250px;
+    justify-content: space-between;
+flex-direction: column;
+}
+header{
+    margin-left: 40px;
+    flex-direction: column;
+}
+.main1{
+ flex-direction: column;
+ margin-left: 40px;
+ width: 365px;
+ height: 250px;
+}
+.piano{
+flex-direction: column;
+margin-left: 40px;
+}
+main{
+    flex-direction: column;
+}
+.p1,.p2,.p3{
+    flex-direction: column;
+}
+.guitar{
+    display: none;
+}
+nav:hover>.guitar{
+    display: none;
+}
+}

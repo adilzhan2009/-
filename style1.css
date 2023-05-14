@@ -1,0 +1,148 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+header{
+    margin-top: 96px;
+    margin-left: 22%;
+    display: flex;
+}
+nav{
+    background-color: #D9D9D9;
+    height: auto; width: auto;
+    padding: 10px;
+margin-right: 5px;
+}
+.menu{
+    display: flex;
+    width: 1159px;
+    margin-left: 116px;
+}
+nav:hover{
+    background-color: #FD5353;
+    color: white;
+}
+.guitar{
+   display: none;
+   background-color: #FD5353;
+   color: white;
+   position: absolute;
+   top: 118px;
+   right: 752px;
+}
+ul{
+    list-style: none;
+    margin: 0; padding-left: 0;
+    margin-top: 16px;
+    height: auto;
+    
+}
+nav:hover>.guitar{
+    display: block;
+    }
+li{
+    padding: 10px;
+}
+li:hover{
+    background-color:#da4747;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Rectangle{
+    
+    width: 1050px; height: auto;
+}
+.div1{
+    margin-top: 89px;
+    margin-left: 22%;
+    margin-right: 218px;
+}
+.stuff{
+    display: flex; width: 1050px;
+    justify-content: space-between;
+    margin-left: 22%;
+    margin-top: 62px;
+}
+.i1{
+    width: 200px; height: 200px;
+}
+.d1{
+    width: 200px; height: auto;
+}
+.a1{
+    background-color: #FD5353;
+    padding: 7px;
+    margin-left: auto; margin-right: auto;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+}
+.p1{
+    font-size: 70%;
+}
+.a2{
+   color: white;
+}
+a:hover{
+    color:white;
+}
+.img1{
+    height: 40px; width: auto;
+    margin: 5px;
+}
+footer{
+    background: #D9D9D9;
+    margin: 0;
+    margin-top: 100px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.links1{
+    display: flex;
+    flex-direction: column;
+}
+.c1{
+    color:rgb(137, 137, 137);
+}
+.c1:hover{
+    color: #FD5353;
+}
+h3{
+    color: #515151;
+}
+.foot{
+    display: flex ;
+    justify-content: space-around;
+}
+@media all and (max-width: 540px)
+{
+.menu{
+    margin-left: 0;
+    width: 390px;
+    margin-top: 20px;
+    height: 250px;
+    justify-content: space-between;
+flex-direction: column;
+}
+header{
+    margin-left: 40px;
+    flex-direction: column;
+}
+.div1{
+    display: none;
+}
+.stuff{
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+.d1{
+    margin-top: 20px;
+}
+.guitar{
+    display: none;
+}
+nav:hover>.guitar{
+    display: none;
+}
+}
